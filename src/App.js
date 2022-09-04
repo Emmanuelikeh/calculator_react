@@ -1,5 +1,4 @@
 function App() {
-
   const createDigits  = () =>{
     const digits = [];
 
@@ -26,9 +25,7 @@ function App() {
         </div>
 
         <div className="digits">
-
           {createDigits()}
-
           <button>0</button>
           <button>.</button>
           <button>=</button>
