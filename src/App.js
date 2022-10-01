@@ -10,8 +10,8 @@ function App() {
 
   const updateCalc = value => {
     if(
-      operations.includes(value) && calc === "" || 
-      operations.includes(calc.slice(-1))
+      (operations.includes(value) && calc === "" )|| 
+      (operations.includes(calc.slice(-1)) && operations.includes(value))
       ){
         return ;
       }
